@@ -13,7 +13,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
-mongoose.connect("mongodb+srv://Priyanka:priyu12345@blogcluster.ayjzf.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://username:passwd@blogcluster.ayjzf.mongodb.net/blogDB");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
